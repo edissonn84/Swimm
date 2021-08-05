@@ -5,21 +5,21 @@ public enum Category {
     candidate (2, "КМС"),
     first (3, "1 разряд"),
     second (4, "2 разряд"),
-    еhird (5, "3 разряд");
+    third (5, "3 разряд");
 
-    private final int index;
-    private final String rusName;
+    private final int indexC;
+    private final String rusNameC;
 
-    Category(int index, String rusName) {
-        this.index = index;
-        this.rusName = rusName;
+    Category(int indexC, String rusNameC) {
+        this.indexC = indexC;
+        this.rusNameC = rusNameC;
     }
 
-    public String getRusName() {
-        return rusName;
+    public int getIndexC() {
+        return indexC;
     }
 
-    public int getIndex() {
-        return index;
+    public String getRusNameC() {
+        return rusNameC;
     }
 }
